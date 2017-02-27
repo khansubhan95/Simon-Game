@@ -89,7 +89,7 @@ $(document).ready(function() {
 		var choice = parseInt($(this).attr('id'));
 		answers.push(choice);
 		if (answers.length===sequence.length) {
-			if (arraysEqual(answers,sequence) && wins<2) {
+			if (arraysEqual(answers,sequence) && wins<20) {
 				$('#banner').html('Correct!');
 				console.log('Correct!');
 				wins+=1;
