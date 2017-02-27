@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="custom.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+        ':8080/livereload.js?snipver=2" async></' + 'script>')
+    </script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="source.js"></script>
+
+    <title>Simon game</title>
+</head>
+
+<body>
+    
+    <div class="container-fluid" style="min-height: 95%;">
+        <!-- <div></div> -->
+        <div class="row">
+
+        <div class="text-center"><h1><b id="banner" style="color: white;">&nbsp</b></h1></div>
+
+        <br><br>
+
+        <div class="square">
+            <div class="cell part1" id="1" onclick="playMusic(1)"></div>
+            <div class="cell part2" id="2" onclick="playMusic(2)"></div>
+            <div class="cell part3" id="3" onclick="playMusic(3)"></div>
+            <div class="cell part4" id="4" onclick="playMusic(4)"></div>
+        </div>
+        </div>
+        <br><br>
+
+        <div class="text-center" style="color: white;"><h2>Steps</h2></div>
+        <div class="text-center" style="color: white;"><h2 id="points">0</h2></div>
+
+        <div class="text-center"><i class="fa fa-play-circle" id="play" aria-hidden="true"></i>  <i class="fa fa-refresh" id="refresh" aria-hidden="true"></i></div>
+
+        <div class="text-center" style="color: white;"><h2>Strict</h2></div>
+        <div class="text-center" id="status">&nbsp</div>
+        <div class="text-center"><i class="fa fa-circle strict" id="strict" aria-hidden="true"></i></div>
+        <br>
+        <div class="text-center" style="color: white;">Press strict before play</div>
+    </div>
+
+    <footer class=" footer text-center">
+        <div class="container">
+            <p style="color: white;">Coded up by <a class="credit" href="https://www.freecodecamp.com/subhan95" target="_blank">Subhan95</a>
+                <br><a class="credit" href="https://www.mohdsubhan.me/" target="_blank">Visit my website</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

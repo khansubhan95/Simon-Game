@@ -1,0 +1,95 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	background-color: black;
+	margin-bottom: 80px;
+}
+
+.square {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+}
+
+.cell {
+	width: 200px;
+	height: 200px; 
+	float: left;
+	cursor: pointer;
+}
+
+.part1 {
+	background-color: #00a74a;
+}
+
+.part2 {
+	background-color: #9f0f17;
+}
+
+.part3 {
+	background-color: #cca707;
+}
+
+.part4 {
+	background-color: #094a8f;
+}
+
+.part1:active,
+.part1.color-active {
+	background-color: #13ff7c;
+	/*background-color: black;*/
+}
+
+.part2:active,
+.part2.color-active {
+	background-color: #ff4c4c;
+	/*background-color: black;*/
+}
+
+.part3:active,
+.part3.color-active {
+	background-color: #fed93f;
+	/*background-color: black;*/
+
+}
+
+.part4:active,
+.part4.color-active {
+	background-color: #1c8cff;
+	/*background-color: black;*/
+
+}
+
+.fa.fa-play-circle {
+	font-size: 75px;
+	color: green;
+	cursor: pointer;
+}
+
+.fa.fa-refresh {
+	font-size: 75px;
+	color: #137C9E;
+	cursor: pointer;
+}
+
+.fa.fa-circle.strict {
+	font-size: 40px;
+	color: yellow;
+	cursor: pointer;
+}
+
+#status {
+	color: red;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: black;
+}
